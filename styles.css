@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+
+*  {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: "poppins" , serif
+
+}
+
+body {
+background-color: #797d7f;
+
+}
+
+
+
+
+img {
+width: 60px;
+float: left;
+
+padding: 0,05rem;
+position: relative;
+left: 15px;
+
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 2rem auto;
+max-width: 1200px;
+position: relative;
+bottom: 10px;
+}
+.navigition ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    position: relative;
+     right: 40px;
+    }
+    
+    
+    .navigition a {
+    text-decoration: none;
+    color: #fdfefe;
+    
+    }
+    
+    .navigition a:hover {
+        color: #17202a ;
+        
+        }
+        .hr11 {
+            opacity: 10%;   
+       position: relative;
+       bottom: 30px;
+           }       
+
+.hero {
+
+justify-content: space-between;
+            
+}
+.arrow {
+position: relative;
+left: -1px;
+top: 10px;
+}
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    }
+
+.name {
+
+color: #eeeeee;   
+}
+        
+.title {
+
+color: #17202a;
+position: relative;
+ top: -10px;            
+}
+
+.herobtns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    
+    }
+
+    .LearnMore {
+        background-color: #17202a;
+        color: #eeeeee;
+        text-decoration: none;
+        padding: 0.5rem 1.5rem;
+        text-shadow:  0px 4px 4px #17202a (0, 0, 0, 0.5 );
+        border-radius: 24px;
+        position: relative;
+        
+    }
+
+    .FifaAccount {
+
+        background-color: #17202a;
+        color: #eeeeee;
+        text-decoration: none;
+        border-radius: 24px;
+        padding: 0.5rem 1.5rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        
+    position: relative;
+    
+    }
+
+    .heroImg {
+
+        position: relative;
+        top: 30px;
+        left: 50px;
+        width: 300px;
+        }
+        .hr1 {
+            opacity: 10%; 
+        position: relative;
+        bottom: 70px;
+        }
+
+        .texteTitle {
+
+            display: flex;
+            flex-direction: column;
+            
+            position: relative;
+            
+            }
+            .texteTitle {
+
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 1.5rem;
+                
+                position: relative;
+                
+                }
+
+.aboutMeImg , .texteTitle {
+
+position: relative;
+left: 50px;
+
+}
+
+
+                .aboutName {
+
+                    color: #eeeeee;
+                
+                    position: relative;
+                    bottom: 125px;
+                    right: 85px;
+                }
+                
+                .aboutTitle {
+                
+                color: #17202a;
+                
+                position: relative;
+                bottom: 150px;
+                right: 25px;
+                } 
+
+                .aboutMePar {
+
+                    text-align: justify;
+                    color: rgba( 238, 238, 238, 0.75);
+                    position: relative;
+                   
+                    font-size: 15px;
+                position: relative;
+                bottom: 120px;
+                }
+
+                .aboutMeImg {
+
+                    position: relative;
+                    bottom: 110px;
+                
+                }
+        
+                .hr2 {
+                    opacity: 10%; 
+                position: relative;
+                bottom: 250px;
+                }
+
+                .Support {
+
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                    position: relative;
+                    bottom: 200px;
+                    }
+
+                    .Support {
+                        font-family: 'Outfit';
+                        
+                        }
+
+                        .conact-container {
+
+                            height: 50vh;
+                        display: flex;
+                        justify-content: space-evenly;
+                        
+                        }
+                        .contact-left {
+
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 20px;
+                            position: relative;
+                            left: 20px;
+                            
+                            }
+                            .contact-left-title h2{
+
+                                font-weight: 600;
+                                font-size: 40px;
+                                margin-bottom: 5px;
+                                }
+
+                                .contact-left-title hr{
+                                    border: none;
+                                    width: 120px;
+                                    height: 5px;
+                                    background-color: #17202a;
+                                    border-radius: 10px;
+                                    margin-bottom: 20px;
+                                    
+                                    }
+                                    .img-contact-right {
+
+                                        width: 250px;
+                                        position: relative;
+                                        top: 500px;
+                                        left: -275px;
+                                    }
+
+                                    .contact-inputs {
+
+                                        width: 360px;
+                                        height: 45px;
+                                        border: none;
+                                        outline: none;
+                                        padding-left: 22.5px;
+                                        font-weight: 450;
+                                        color: #666;
+                                        border-radius: 45px;
+                                        
+                                        } 
+                                        .contact-left textarea {
+
+                                            height: 140px;
+                                            padding-top: 15px;
+                                            border-radius: 20px;
+                                            
+                                            }
+                                            .contact-inputs:focus {
+
+                                                border: 2px solid #17202a;
+                                                
+                                                }
+                                                .contact-inputs::placeholder {
+
+                                                    color: #a9a9a9;
+                                                    
+                                                    }
+       .contact-left button {
+
+         display: flex;
+         align-items: center;
+             padding: 15px 30px;
+             font-size: 16px;
+       color: #666;
+             gap: 10px;
+                 border: none;
+            border-radius: 50px;
+            background: linear-gradient(270deg,#17202a);
+              cursor: pointer;
+              position: relative;                                          }
+              
+.Contact {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+gap: 2rem;
+margin: 2rem auto;
+max-width: 1200px;
+
+
+}
+.hr33 {
+    opacity: 10%;   
+position: relative;
+bottom: 0px;
+   }   
+   .AccountTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    
+    } 
+    .Our {
+
+        
+        align-items: center;
+        justify-content: center;
+        margin-right: 2.5rem;
+        gap: 10rem;
+        
+        
+        }     
+        .Our h3 , .Our a {
+
+            color: #eeeeee;
+            text-decoration: none;
+            
+            }
+
+            .emailAndPhone {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                gap: 5px;
+                
+                }
+
+                .OurTitle {
+
+                    color: #eeeeee;
+                    
+                    }
+.dddd {
+position: relative;
+left: 15px;
+
+}
+
+.ddddd {
+
+position: relative;
+left: 20px;
+
+}
+
+.hr444 {
+    opacity: 10%;   
+position: relative;
+bottom: 0px;
+   }
+
+   footer {
+
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+    }
+
+
+    @media (min-width :1023px) {
+
+        *  {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: "poppins" , serif
+            
+            }
+            
+            body {
+            background-color: #797d7f;
+            
+            }
+            
+            
+            
+            
+            img {
+            width: 75px;
+            float: left;
+            
+            padding: 0,05rem;
+            
+            
+            
+            }
+            header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem auto;
+            max-width: 1200px;
+            
+            }
+            
+            
+            
+            .navigition ul {
+            display: flex;
+            list-style-type: none;
+            gap: 2rem;
+            
+            }
+            
+            .navigition a {
+            text-decoration: none;
+            color: #fdfefe;
+            
+            }
+            
+            .navigition a:hover {
+                color: #17202a ;
+                
+                }
+                hr {
+                 opacity: 10%;   
+            
+                }
+                .hero {
+            
+                    justify-content: space-between;
+                    position: relative;
+                   left: 120px;
+                    
+                    }
+            
+            .arrow {
+            
+            width: 200px;
+            
+            position: relative;
+            top: 100px;
+            left: 200px;
+            
+            
+            }
+            
+            .herosub {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            
+            }
+            
+            .name {
+            font-size: 3rem;
+            color: #eeeeee;
+            
+            }
+            
+            .title {
+            font-size: 4rem;
+            color: #17202a;
+            
+            }
+            
+            .herobtns {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            
+            }
+            
+            .LearnMore {
+            background-color: #17202a;
+            color: #eeeeee;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            text-shadow:  0px 4px 4px #17202a (0, 0, 0, 0.5 );
+            border-radius: 24px;
+            position: relative;
+            top: 160px;
+            right: 310px;
+            
+            
+            
+            }
+            
+            .heroImg {
+            
+            position: relative;
+            left: 850px;
+            top: -150px;
+            width: 500px;
+            
+            }
+            
+            
+            .FifaAccount {
+            
+                background-color: #17202a;
+                color: #eeeeee;
+                text-decoration: none;
+                border-radius: 24px;
+                padding: 0.5rem 1.5rem;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+                
+            position: relative;
+            
+            top: 160px;
+            right: 310px;
+            
+            }
+            
+            
+            
+            .name {
+            font-size: 60px;
+            
+            
+            position: relative;
+            
+            top: 85px;
+            left: 160px;
+            
+            }
+            
+            
+            .title {
+            
+            position: relative;
+            
+            top: 100px;
+            left: 160px;
+            
+            }
+            
+            .AboutMe {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5rem auto;
+            max-width: 1200px;
+            gap: 10rem;
+            
+            position: relative;
+            
+            }
+            
+            .Definition {
+            
+            position: relative;
+            left: 475px;
+            }
+            .texteTitle {
+            
+            display: flex;
+            flex-direction: column;
+            
+            position: relative;
+            
+            }
+            
+            .texteTitle {
+            
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 2rem;
+            
+            position: relative;
+            
+            }
+            
+            .aboutName {
+            
+                color: #eeeeee;
+            
+                position: relative;
+                right: 650px;
+                top: -75px;
+            
+            
+            }
+            
+            .aboutTitle {
+            
+            color: #17202a;
+            
+            position: relative;
+            right: 400px;
+            }
+            
+            .aboutMePar {
+            
+                text-align: justify;
+                color: rgba( 238, 238, 238, 0.75);
+                position: relative;
+                right: 50px;
+            
+            font-size: 20px;
+            
+            }
+            
+            .aboutMeImg {
+            
+                position: relative;
+               left: -100px;
+                
+                
+                width: 400px;
+            
+            }
+            
+            .Support {
+            
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            
+            }
+            
+            .Support {
+            font-family: 'Outfit';
+            
+            }
+            
+            .conact-container {
+            
+                height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            }
+            
+            .contact-left {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            
+            
+            }
+            
+            .contact-left-title h2{
+            
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 5px;
+            }
+            
+            .contact-left-title hr{
+            border: none;
+            width: 120px;
+            height: 5px;
+            background-color: #17202a;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            
+            }
+            
+            .img-contact-right {
+            
+            width: 500px;
+            position: relative;
+            top: 75px;
+            
+            
+            }
+            
+            .contact-inputs {
+            
+            width: 400px;
+            height: 50px;
+            border: none;
+            outline: none;
+            padding-left: 25px;
+            font-weight: 500;
+            color: #666;
+            border-radius: 50px;
+            
+            }
+            
+            .contact-left textarea {
+            
+            height: 140px;
+            padding-top: 15px;
+            border-radius: 20px;
+            
+            }
+            
+            .contact-inputs:focus {
+            
+            border: 2px solid #17202a;
+            
+            }
+            
+            .contact-inputs::placeholder {
+            
+            color: #a9a9a9;
+            
+            }
+            
+            .contact-left button {
+            
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: #666;
+            gap: 10px;
+            border: none;
+            border-radius: 50px;
+            background: linear-gradient(270deg,#17202a);
+            cursor: pointer;
+            }
+            
+            .Contact {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            gap: 2rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+            
+            
+            }
+            
+            .AccountTitle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            margin-bottom: 10px;
+            font-size: 2rem;
+            
+            }
+            
+            .Our {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5rem;
+            gap: 20rem;
+            
+            
+            }
+            
+            .Our h3 , .Our a {
+            
+            color: #eeeeee;
+            text-decoration: none;
+            
+            }
+            
+            .emailAndPhone {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            gap: 5px;
+            
+            }
+            
+            .OurTitle {
+            
+            color: #eeeeee;
+            
+            }
+            
+            footer {
+            
+            color: #eeeeee;
+            padding: 2rem;
+            text-align: center;
+            }
+
+
+    }
